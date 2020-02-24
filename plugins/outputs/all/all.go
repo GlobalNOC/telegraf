@@ -35,4 +35,5 @@ import (
 	_ "github.com/influxdata/telegraf/plugins/outputs/syslog"
 	_ "github.com/influxdata/telegraf/plugins/outputs/warp10"
 	_ "github.com/influxdata/telegraf/plugins/outputs/wavefront"
+	_ "github.grnoc.iu.edu/veorlows/telegraf-tsds-output-plugin/tsds"
 )

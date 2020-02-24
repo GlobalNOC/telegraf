@@ -443,6 +443,12 @@ github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c/go.mod h1:lB8K/P019DLNhe
 github.com/xdg/stringprep v1.0.0/go.mod h1:Jhud4/sHMO4oL310DaZAKk9ZaJ08SJfe+sJh0HrGL1Y=
 github.com/yuin/gopher-lua v0.0.0-20180630135845-46796da1b0b4 h1:f6CCNiTjQZ0uWK4jPwhwYB8QIGGfn0ssD9kVzRUUUpk=
 github.com/yuin/gopher-lua v0.0.0-20180630135845-46796da1b0b4/go.mod h1:aEV29XrmTYFr3CiRxZeGHpkvbwq+prZduBqMaascyCU=
+github.grnoc.iu.edu/jdratlif/GRNOC-Counter-go v0.0.0-20190905193601-afa5be0605cf h1:nxHh/nYBxHMwbNW426NKSj7k9BWwlcrHxqg/7uMVvNc=
+github.grnoc.iu.edu/jdratlif/GRNOC-Counter-go v0.0.0-20190905193601-afa5be0605cf/go.mod h1:SdqNRFnB+ctaD0BR9ibwwNMfyl5EpFILuFG7AIPqCJo=
+github.grnoc.iu.edu/jdratlif/GRNOC-WebService-Client-go v0.0.0-20190904211552-8e07fd7d98c9 h1:NGVdnOMLtR5XvRlb07Uqw4Q28kFbxp5ZBgCiS6NCg44=
+github.grnoc.iu.edu/jdratlif/GRNOC-WebService-Client-go v0.0.0-20190904211552-8e07fd7d98c9/go.mod h1:FZgZPHQIfzyYaQ0t2izszvat8qynlfqrhmrYXuxmW5M=
+github.grnoc.iu.edu/veorlows/telegraf-tsds-output-plugin v0.0.0-20200206180900-1ff31621d683 h1:bQ036QSKv2O1EYWR7U/kS4mg6w/YXlVj5E0pyLoiCBU=
+github.grnoc.iu.edu/veorlows/telegraf-tsds-output-plugin v0.0.0-20200206180900-1ff31621d683/go.mod h1:HXU0ZUU1qCd7rl2ipu3xNBbTu3MWdddAZn15JvK21RU=
 go.opencensus.io v0.20.1 h1:pMEjRZ1M4ebWGikflH7nQpV6+Zr88KBMA2XJD3sbijw=
 go.opencensus.io v0.20.1/go.mod h1:6WKK9ahsWS3RSO+PY9ZHZUfv2irvY6gN279GOPZjmmk=
 golang.org/x/crypto v0.0.0-20180904163835-0709b304e793/go.mod h1:6SG95UA2DQfeDnfUPMdvaQW0Q7yPrPDi9nlGo2tz2b4=

@@ -120,6 +120,10 @@ require (
 	github.com/wvanbergen/kazoo-go v0.0.0-20180202103751-f72d8611297a // indirect
 	github.com/yuin/gopher-lua v0.0.0-20180630135845-46796da1b0b4 // indirect
 	golang.org/x/net v0.0.0-20200202094626-16171245cfb2
+	github.grnoc.iu.edu/jdratlif/GRNOC-Counter-go v0.0.0-20190905193601-afa5be0605cf // indirect
+	github.grnoc.iu.edu/jdratlif/GRNOC-WebService-Client-go v0.0.0-20190904211552-8e07fd7d98c9 // indirect
+	github.grnoc.iu.edu/veorlows/telegraf-tsds-output-plugin v0.0.0-20200206180900-1ff31621d683
+	golang.org/x/net v0.0.0-20191004110552-13f9640d40b9
 	golang.org/x/oauth2 v0.0.0-20190226205417-e64efc72b421
 	golang.org/x/sys v0.0.0-20200212091648-12a6c2dcc1e4
 	gonum.org/v1/gonum v0.6.2 // indirect
@@ -136,3 +140,5 @@ require (
 	gotest.tools v2.2.0+incompatible // indirect
 	k8s.io/apimachinery v0.17.1 // indirect
 )
+
+replace github.grnoc.iu.edu/veorlows/telegraf-tsds-output-plugin => /home/veorlows/go/telegraf-tsds-output-plugin
