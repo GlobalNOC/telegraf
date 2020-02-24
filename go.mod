@@ -65,6 +65,8 @@ require (
 	github.com/hashicorp/serf v0.8.1 // indirect
 	github.com/influxdata/go-syslog/v2 v2.0.1
 	github.com/influxdata/tail v1.0.1-0.20180327235535-c43482518d41
+	github.com/influxdata/telegraf/grnoc/counter v0.0.0
+	github.com/influxdata/telegraf/grnoc/wsc v0.0.0
 	github.com/influxdata/toml v0.0.0-20190415235208-270119a8ce65
 	github.com/influxdata/wlog v0.0.0-20160411224016-7c63b0a71ef8
 	github.com/jackc/fake v0.0.0-20150926172116-812a484cc733 // indirect
@@ -120,10 +122,6 @@ require (
 	github.com/wvanbergen/kazoo-go v0.0.0-20180202103751-f72d8611297a // indirect
 	github.com/yuin/gopher-lua v0.0.0-20180630135845-46796da1b0b4 // indirect
 	golang.org/x/net v0.0.0-20200202094626-16171245cfb2
-	github.grnoc.iu.edu/jdratlif/GRNOC-Counter-go v0.0.0-20190905193601-afa5be0605cf // indirect
-	github.grnoc.iu.edu/jdratlif/GRNOC-WebService-Client-go v0.0.0-20190904211552-8e07fd7d98c9 // indirect
-	github.grnoc.iu.edu/veorlows/telegraf-tsds-output-plugin v0.0.0-20200206180900-1ff31621d683
-	golang.org/x/net v0.0.0-20191004110552-13f9640d40b9
 	golang.org/x/oauth2 v0.0.0-20190226205417-e64efc72b421
 	golang.org/x/sys v0.0.0-20200212091648-12a6c2dcc1e4
 	gonum.org/v1/gonum v0.6.2 // indirect
@@ -141,4 +139,6 @@ require (
 	k8s.io/apimachinery v0.17.1 // indirect
 )
 
-replace github.grnoc.iu.edu/veorlows/telegraf-tsds-output-plugin => /home/veorlows/go/telegraf-tsds-output-plugin
+replace github.com/influxdata/telegraf/grnoc/counter => ./grnoc/counter
+
+replace github.com/influxdata/telegraf/grnoc/wsc => ./grnoc/wsc
