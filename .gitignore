@@ -3,3 +3,6 @@
 /telegraf.exe
 /telegraf.gz
 /vendor
+/testing_*
+telegraf-tsds-output-plugin
+/*.bak
